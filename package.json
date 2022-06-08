@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "screening test for Pandell",
+  "main": "bestSolution.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "high-effec": "node optimalSolution.js",
+    "low-effec": "node index.js",
+    "docs:generate": "jsdoc -c jsdoc.json --readme README.md"
+  },
+  "author": "swagat samal",
+  "license": "ISC",
+  "dependencies": {
+    "jsdoc": "^3.6.10"
+  }
+}
